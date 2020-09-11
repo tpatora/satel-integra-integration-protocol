@@ -178,6 +178,11 @@ describe("Message decoding unit tests", () => {
       command: messages_impl.Commands.ZonesTamper,
     },
     {
+      name: "zones_tamper_alarm",
+      message: messages.ZonesTamperAlarmAnswer,
+      command: messages_impl.Commands.ZonesTamperAlarmAnswer,
+    },	
+    {
       name: "outputs state",
       message: messages.OutputsStateAnswer,
       command: messages_impl.Commands.OutputsState,

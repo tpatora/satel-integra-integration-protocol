@@ -1,26 +1,54 @@
 {
-  "name": "satel-integra-integration-protocol",
-  "version": "0.3.0",
-  "description": "Satel Integra integration protocol",
-  "main": "messages.js",
-  "scripts": {
-    "test": "mocha *.test.js",
-    "cover": "node_modules/istanbul/lib/cli.js cover -x '**/*.test.js' node_modules/mocha/bin/_mocha *.test.js",
-    "format:fix": "prettier --write \"**/*.@(ts|js|json|md)\"",
-    "format:validate": "prettier --list-different \"**/*.@(ts|js|json|md)\""
+  "_from": "satel-integra-integration-protocol@^0.4.0",
+  "_id": "satel-integra-integration-protocol@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-c+GNrYlnfUWUbL2hIySfyyRGSanPTRgiLvbpqWNVutokP0myHfufFEnxIFi2Bo54lezRbRWdStghzZQVaXEdoA==",
+  "_location": "/satel-integra-integration-protocol",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "satel-integra-integration-protocol@^0.4.0",
+    "name": "satel-integra-integration-protocol",
+    "escapedName": "satel-integra-integration-protocol",
+    "rawSpec": "^0.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.4.0"
   },
-  "keywords": [
-    "satel",
-    "integra",
-    "protocol"
+  "_requiredBy": [
+    "/node-red-contrib-satel-integra-integration"
   ],
-  "author": "Tomasz Maj <majektom@gmail.com>",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/satel-integra-integration-protocol/-/satel-integra-integration-protocol-0.4.0.tgz",
+  "_shasum": "cd47e233cc82b1ad7c6832822b64197b8596034f",
+  "_spec": "satel-integra-integration-protocol@^0.4.0",
+  "_where": "C:\\Users\\Tomasz\\.node-red\\node_modules\\node-red-contrib-satel-integra-integration",
+  "author": {
+    "name": "Tomasz Maj",
+    "email": "majektom@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Satel Integra integration protocol",
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.1.0",
     "istanbul": "^0.4.5",
     "mocha": "^7.2.0",
     "prettier": "2.0.5"
-  }
+  },
+  "keywords": [
+    "satel",
+    "integra",
+    "protocol"
+  ],
+  "license": "MIT",
+  "main": "messages.js",
+  "name": "satel-integra-integration-protocol",
+  "scripts": {
+    "cover": "node_modules/istanbul/lib/cli.js cover -x '**/*.test.js' node_modules/mocha/bin/_mocha *.test.js",
+    "format:fix": "prettier --write \"**/*.@(ts|js|json|md)\"",
+    "format:validate": "prettier --list-different \"**/*.@(ts|js|json|md)\"",
+    "test": "mocha *.test.js"
+  },
+  "version": "0.3.0"
 }
