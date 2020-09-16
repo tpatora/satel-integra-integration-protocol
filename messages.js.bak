@@ -214,6 +214,8 @@ function encodeTroublesMemoryPart8Command() {
 }
 
 function encodeArmInMode0Command(prefixAndUserCode, partitions) {
+  console.log(prefixAndUserCode + " partitions="+partitions);
+  
   return message_impl.encodeChangePartitionsCommand(
     message_impl.Commands.ArmInMode0,
     prefixAndUserCode,
@@ -302,6 +304,7 @@ function encodeZonesBypassUserCommand(prefixAndUserCode, zones_bypass) {
 }
 
 function encodeZonesUnbypassCommand(prefixAndUserCode, zones_unbypass) {
+  console.log("encodeZonesUnbypassCommand function zones_unbypass:" + zones_unbypass);
   return message_impl.encodeChangeZonesCommand(
     message_impl.Commands.ZonesUnbypass,
     prefixAndUserCode,
